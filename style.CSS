@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    border-bottom: 1px solid #1f1f1f;
+    border-bottom: 1px solid #000;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -128,4 +128,86 @@ color: white;
 .btn-secondary:hover{
     background:#8b5cf6;
     transform: translateY(-3px);
+}
+.skills{
+    padding:100px 80px;
+    text-align:center;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:60px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card{
+    width:170px;
+    height:220px;
+    background:#161616;
+    border:1px solid #333;
+    border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    transition: all 0.3s ease;
+}
+.card img{
+    width:100px;
+    margin-bottom:20px;
+}
+.cgroup img{
+width:200px;
+}
+.card h3{
+    color:white;
+    transition: all 0.3s ease;
+}
+.csharp:hover{
+    border-color:#9B4F96;
+    box-shadow:0 0 20px #9B4F96;
+    transform: translateY(-8px);
+}
+.html:hover{
+    border-color:#E34F26;
+    box-shadow:0 0 20px #E34F26;
+    transform: translateY(-8px);
+}
+.css:hover{
+    border-color:#1572B6;
+    box-shadow:0 0 20px #1572B6;
+    transform: translateY(-8px);
+}
+.python:hover{
+    border-color:#3776AB;
+    box-shadow:0 0 20px #3776AB;
+    transform: translateY(-8px);
+}
+.java:hover{
+    border-color:#F89820;
+    box-shadow:0 0 20px #F89820;
+    transform: translateY(-8px);
+}
+.js:hover{
+    border-color:#F7DF1E;
+    box-shadow:0 0 20px #F7DF1E;
+    transform: translateY(-8px);
+}
+.php:hover{
+    border-color: #777BB4;
+    box-shadow: 0 0 20px #777BB4;
+    transform: translateY(-8px);
+}
+.cpp:hover{
+    border-color:#00599C;
+    box-shadow:0 0 20px #00599C;
+    transform: translateY(-8px);
 }
